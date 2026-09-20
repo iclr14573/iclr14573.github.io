@@ -1,0 +1,25 @@
+# ICLR Submission 14573 — Project Page
+
+Anonymous project page, same layout as `iclr_submission_11751` (Bulma + static HTML, no build step).
+Open `index.html` directly or serve the folder with `python3 -m http.server`.
+
+## Assets
+
+Files already in place were copied/rendered from `figs/` and `paper_results/`; `index.html` references them.
+Missing videos show a dashed "Video placeholder" box automatically and start playing once the file
+lands at the listed path.
+
+| Section | Path | Status |
+|---|---|---|
+| Teaser image (hero) | `new_assets/pdf_renders/teaser.png` (from `figs/teaser.pdf`) | ready |
+| Dynamic Scene Editing with Poking — figure | `new_assets/pdf_renders/foam_edit.png` (from `figs/foam_edit.pdf`) | ready |
+| Dynamic Scene Editing with Poking — videos | `results/poke/force_setting_{1,2,3}.mp4` | **placeholder** |
+| Material Properties Estimation — images | `new_assets/material/{random,optimized}.png` | ready |
+| Material Properties Estimation — videos | `results/material/{random,optimized}.mp4` | **placeholder** |
+| More Simulation Results | `results/single_object/{pillow2sofa_drop,coke_can_compress,ficus_poke}.mp4` (from `paper_results/single_object/*/output.mp4`) | ready |
+| Dynamic Ray Tracing | `results/ray_tracing/{bonsai_garden_dynamic_mirror,all_four_mirror}.mp4` (from `paper_results/teaser_video/bonsai_garden_dynamic_mirror/` and `paper_results/multi_physics/all_four_mirror_v10/`) | ready |
+| Comparison with Baselines | `results/compare/{mario,bus}.mp4` (from `paper_results/qual_dynamic_rec_compare/videos/`) | ready |
+| Ablation Studies | `results/ablation/` | **placeholder** (static block in `index.html`) |
+
+Re-render the PDF figures with `pdftoppm -png -r 200 -singlefile figs/<name>.pdf new_assets/pdf_renders/<name>`
+(then trim white margins). `paper_results/` is the raw source tree and is not referenced by the page.
