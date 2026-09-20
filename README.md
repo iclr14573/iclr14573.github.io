@@ -16,7 +16,7 @@ lands at the listed path.
 | Dynamic Scene Editing with Poking — videos | `results/poke/force_setting_{1,2,3}.mp4` (2x crop-zoom of `paper_results/bonsai_garden_poke/config{1,2,3}.mp4`: `crop=648:420:291:50`, upscaled to 1296x840; setting 2 uses `config2_fixed.mp4`, where the frame-0 force marker is held for frames 0-9 to match settings 1 and 3) | ready |
 | Material Properties Estimation — images | `new_assets/material/{random,optimized}.png` | ready |
 | Material Properties Estimation — videos | `results/material/{random,optimized}.mp4` (from `paper_results/carnations_poke/{unoptimized,optimized}.mp4`) | ready |
-| More Simulation Results | `results/single_object/{pillow2sofa_drop,coke_can_compress,ficus_poke}.mp4` (from `paper_results/single_object/*/output.mp4`) | ready |
+| More Simulation Results | `results/single_object/{pillow2sofa_drop,coke_can_compress,ficus_poke,wolf_sand}.mp4` (from `paper_results/single_object/{pillow2sofa_drop,coke_can_compress,phase2_ficus_poke,wolf_sand_cull70}/output.mp4`) | ready |
 | Dynamic Ray Tracing | `results/ray_tracing/{bonsai_garden_dynamic_mirror,all_four_mirror}.mp4` (from `paper_results/teaser_video/bonsai_garden_dynamic_mirror/` and `paper_results/multi_physics/all_four_mirror_v10/`) | ready |
 | Comparison with Baselines | `results/compare/{mario,bus}.mp4` (from `paper_results/qual_dynamic_rec_compare/videos/`) | ready |
 | Ablation Studies | `results/ablation/` | **placeholder** (static block in `index.html`) |
