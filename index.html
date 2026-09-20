@@ -40,6 +40,11 @@
       line-height: 1.45;
     }
 
+    /* Wider than Bulma's is-max-desktop, used for sections whose media should read large. */
+    .container.is-wide {
+      max-width: 1600px;
+    }
+
     .figure-wrap {
       max-width: 1800px;
       margin: 0 auto 1.5rem;
@@ -109,8 +114,7 @@
     .teaser-motion-grid {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 0.75em;
-      max-width: 1080px;
+      gap: 1em;
       margin: 0 auto;
     }
 
@@ -316,7 +320,7 @@
 </section>
 
 <section class="section">
-  <div class="container is-max-desktop">
+  <div class="container is-wide">
     <div class="columns is-centered has-text-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Dynamic Scene Editing with Poking</h2>
