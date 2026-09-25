@@ -82,6 +82,10 @@
       max-width: 1100px;
     }
 
+    .media-label.label-ours {
+      color: #1f77b4;
+    }
+
     .media-label {
       display: block;
       font-size: 1em;
@@ -469,24 +473,28 @@
 </section>
 
 <section class="section">
-  <div class="container is-max-desktop">
+  <div class="container is-wide">
     <div class="columns is-centered has-text-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Ablation Studies</h2>
-        <div class="placeholder-block">
-          Ablation results coming soon
-          <small>Drop media into <code>results/ablation/</code> and replace this block.</small>
-        </div>
-        <!--
-        Suggested layout once assets exist:
         <div class="media-grid">
           <div class="media-item">
-            <p class="media-label">Ablation 1</p>
-            <video autoplay muted loop playsinline><source src="./results/ablation/ablation_1.mp4" type="video/mp4"></video>
+            <p class="media-label label-ours">PowerSim</p>
+            <video autoplay muted loop playsinline><source src="./results/ablation/powersim.mp4" type="video/mp4"></video>
           </div>
-          ...
+          <div class="media-item">
+            <p class="media-label">Fixed Dipole Plane</p>
+            <video autoplay muted loop playsinline><source src="./results/ablation/fixed_dipole_plane.mp4" type="video/mp4"></video>
+          </div>
+          <div class="media-item">
+            <p class="media-label">Fixed Texel Axis</p>
+            <video autoplay muted loop playsinline><source src="./results/ablation/fixed_texel_axis.mp4" type="video/mp4"></video>
+          </div>
+          <div class="media-item">
+            <p class="media-label">PhysGaussian</p>
+            <video autoplay muted loop playsinline><source src="./results/ablation/physgaussian.mp4" type="video/mp4"></video>
+          </div>
         </div>
-        -->
       </div>
     </div>
   </div>
