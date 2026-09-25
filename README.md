@@ -12,6 +12,7 @@ lands at the listed path. All sections are filled in.
 | Section | Path | Status |
 |---|---|---|
 | Teaser image (hero) | `new_assets/pdf_renders/teaser.png` (from `figs/teaser.pdf`) | ready |
+| Why PowerSim? — figure | `new_assets/pdf_renders/evolve_sites.png` (from `figs/evolve_sites.pdf`) | ready |
 | Dynamic Scene Editing with Poking — figure | `new_assets/pdf_renders/foam_edit.png` (from `figs/foam_edit.pdf`) | ready |
 | Why PowerSim? | `results/why_powersim/{pac_nerf,physgaussian,powersim}.mp4` (from `paper_results/why_powersim/{pac-nerf.mp4,physgauss/output.mp4,powersim/output.mp4}`; PowerSim retimed `setpts=1.5*PTS,fps=100` from 200 to 300 frames so all three run 3 s and loop in step) | ready |
 | Dynamic Scene Editing with Poking — videos | `results/poke/force_setting_{1,2,3}.mp4` (2x crop-zoom of `paper_results/bonsai_garden_poke/config{1,2,3}.mp4`: `crop=648:420:291:50`, upscaled to 1296x840; setting 2 uses `config2_fixed.mp4`, where the frame-0 force marker is held for frames 0-9 to match settings 1 and 3) | ready |
