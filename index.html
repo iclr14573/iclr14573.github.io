@@ -86,6 +86,10 @@
       color: #1f77b4;
     }
 
+    .media-label.label-fail {
+      color: #d62828;
+    }
+
     .media-label {
       display: block;
       font-size: 1em;
@@ -519,6 +523,7 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Ablation Studies</h2>
+        <p class="section-note">Due to the hollow-shell nature of 3DGS, PhysGaussian struggles with extreme deformations unless internally filled, whereas PowerSim succeeds by capturing true volumetric physics without requiring any internal filling process.</p>
         <div class="media-grid">
           <div class="media-item">
             <p class="media-label label-ours">PowerSim</p>
@@ -533,7 +538,7 @@
             <video autoplay muted loop playsinline><source src="./results/ablation/fixed_texel_axis.mp4" type="video/mp4"></video>
           </div>
           <div class="media-item">
-            <p class="media-label">PhysGaussian</p>
+            <p class="media-label label-fail">PhysGaussian</p>
             <video autoplay muted loop playsinline><source src="./results/ablation/physgaussian.mp4" type="video/mp4"></video>
           </div>
         </div>
