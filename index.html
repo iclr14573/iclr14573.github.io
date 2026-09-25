@@ -156,8 +156,8 @@
     }
 
     .mat-item {
-      flex: 1 1 440px;
-      max-width: 560px;
+      flex: 1 1 380px;
+      max-width: 480px;
       padding: 0.9em 0.9em 0.7em;
       border: 1px solid #d7dde8;
       border-radius: 10px;
@@ -172,6 +172,7 @@
 
     .mat-item-title.is-random { color: #d62828; }
     .mat-item-title.is-optimized { color: #3a9d23; }
+    .mat-item-title.is-baseline { color: #13294B; }
 
     .mat-pair {
       display: grid;
@@ -384,7 +385,7 @@
 </section>
 
 <section class="section">
-  <div class="container is-max-desktop">
+  <div class="container is-wide">
     <div class="columns is-centered has-text-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Material Properties Estimation</h2>
@@ -401,6 +402,22 @@
                 <div class="media-frame">
                   <video autoplay muted loop playsinline><source src="./results/material/random.mp4" type="video/mp4" onerror="markMissing(this)"></video>
                   <div class="missing-overlay">Video placeholder<small>results/material/random.mp4</small></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mat-item">
+            <div class="mat-item-title is-baseline">PhysDreamer</div>
+            <div class="mat-pair">
+              <div>
+                <p class="media-label">Material Field</p>
+                <img src="./new_assets/material/physdreamer.png" alt="PhysDreamer material field">
+              </div>
+              <div>
+                <p class="media-label">Simulation</p>
+                <div class="media-frame">
+                  <video autoplay muted loop playsinline><source src="./results/material/physdreamer.mp4" type="video/mp4" onerror="markMissing(this)"></video>
+                  <div class="missing-overlay">Video placeholder<small>results/material/physdreamer.mp4</small></div>
                 </div>
               </div>
             </div>

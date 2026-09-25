@@ -13,10 +13,10 @@ lands at the listed path. All sections are filled in.
 |---|---|---|
 | Teaser image (hero) | `new_assets/pdf_renders/teaser.png` (from `figs/teaser.pdf`) | ready |
 | Dynamic Scene Editing with Poking — figure | `new_assets/pdf_renders/foam_edit.png` (from `figs/foam_edit.pdf`) | ready |
-| Why PowerSim? | `results/why_powersim/{pac_nerf,physgaussian,powersim}.mp4` (from `paper_results/why_powersim/{pac-nerf.mp4,physgauss/output.mp4,powersim/output.mp4}`) | ready |
+| Why PowerSim? | `results/why_powersim/{pac_nerf,physgaussian,powersim}.mp4` (from `paper_results/why_powersim/{pac-nerf.mp4,physgauss/output.mp4,powersim/output.mp4}`; PowerSim retimed `setpts=1.5*PTS,fps=100` from 200 to 300 frames so all three run 3 s and loop in step) | ready |
 | Dynamic Scene Editing with Poking — videos | `results/poke/force_setting_{1,2,3}.mp4` (2x crop-zoom of `paper_results/bonsai_garden_poke/config{1,2,3}.mp4`: `crop=648:420:291:50`, upscaled to 1296x840; setting 2 uses `config2_fixed.mp4`, where the frame-0 force marker is held for frames 0-9 to match settings 1 and 3) | ready |
-| Material Properties Estimation — images | `new_assets/material/{random,optimized}.png` | ready |
-| Material Properties Estimation — videos | `results/material/{random,optimized}.mp4` (from `paper_results/carnations_poke/{unoptimized,optimized}.mp4`) | ready |
+| Material Properties Estimation — images | `new_assets/material/{random,physdreamer,optimized}.png` (PhysDreamer padded from `paper_results/carnations_poke/physdreamer_mat_field_E.png` to the 380:230 panel aspect) | ready |
+| Material Properties Estimation — videos | `results/material/{random,physdreamer,optimized}.mp4` (from `paper_results/carnations_poke/{unoptimized,physdreamer,optimized}.mp4`) | ready |
 | More Simulation Results | `results/single_object/{pillow2sofa_drop,coke_can_compress,ficus_poke,wolf_sand}.mp4` (from `paper_results/single_object/{pillow2sofa_drop,coke_can_compress,phase2_ficus_poke,wolf_sand_cull70}/output.mp4`) | ready |
 | Dynamic Secondary Ray Tracing with Reflection | `results/ray_tracing/{bonsai_garden_dynamic_mirror,all_four_mirror}.mp4` (from `paper_results/teaser_video/bonsai_garden_dynamic_mirror/` and `paper_results/multi_physics/all_four_mirror_v10/`) | ready |
 | Comparison with Baselines | `results/compare/{mario,bus}.mp4` (from `paper_results/qual_dynamic_rec_compare/videos/`) | ready |
