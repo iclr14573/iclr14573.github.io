@@ -13,6 +13,7 @@ lands at the listed path. All sections are filled in.
 |---|---|---|
 | Teaser image (hero) | `new_assets/pdf_renders/teaser.png` (from `figs/teaser.pdf`) | ready |
 | Dynamic Scene Editing with Poking — figure | `new_assets/pdf_renders/foam_edit.png` (from `figs/foam_edit.pdf`) | ready |
+| Why PowerSim? | `results/why_powersim/{pac_nerf,physgaussian,powersim}.mp4` (from `paper_results/why_powersim/{pac-nerf.mp4,physgauss/output.mp4,powersim/output.mp4}`) | ready |
 | Dynamic Scene Editing with Poking — videos | `results/poke/force_setting_{1,2,3}.mp4` (2x crop-zoom of `paper_results/bonsai_garden_poke/config{1,2,3}.mp4`: `crop=648:420:291:50`, upscaled to 1296x840; setting 2 uses `config2_fixed.mp4`, where the frame-0 force marker is held for frames 0-9 to match settings 1 and 3) | ready |
 | Material Properties Estimation — images | `new_assets/material/{random,optimized}.png` | ready |
 | Material Properties Estimation — videos | `results/material/{random,optimized}.mp4` (from `paper_results/carnations_poke/{unoptimized,optimized}.mp4`) | ready |
